@@ -23,3 +23,6 @@ jobs:
 
       - name: Build Project
         run: dotnet build --no-restore
+      
+      - name: Print Hello
+        run: echo "Hello from GitHub Actions!"
